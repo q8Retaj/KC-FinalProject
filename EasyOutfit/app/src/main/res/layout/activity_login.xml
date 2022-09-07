@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/e"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="268dp"
+        android:layout_height="73dp"
+        android:ems="10"
+        android:hint="Enter your email"
+        android:inputType="textEmailAddress"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.181"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.451"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="327dp"
+        android:layout_height="92dp"
+        android:ems="10"
+        android:hint="Enter your password"
+        android:inputType="textPersonName"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.38"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.605"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="285dp"
+        android:layout_height="154dp"
+        android:fontFamily="@font/allura"
+        android:gravity="center"
+        android:text="Welcome to easy outfit"
+        android:textColor="#D6C088"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.325"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.102"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="196dp"
+        android:layout_height="121dp"
+        android:backgroundTint="#7C5C0C"
+        android:text="Submit"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.855"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

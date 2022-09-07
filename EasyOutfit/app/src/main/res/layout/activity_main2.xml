@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/e"
+    tools:context=".scrollView">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="20dp"
+                android:id="@+id/accessory1"
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/a1" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="accessory"
+                        android:textSize="24dp" />
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="20dp"
+                android:id="@+id/accssory2"
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/a2" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="accessory"
+                        android:textSize="24dp" />
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="20dp"
+                android:id="@+id/accessory3"
+                app:cardElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/a3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="accessory"
+                        android:textSize="24dp" />
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+        <androidx.cardview.widget.CardView
+
+
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="20dp"
+            android:id="@+id/bag"
+            app:cardElevation="10dp">
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bag1"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="accessory"
+                android:textSize="24dp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+
+
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="20dp"
+                android:id="@+id/bag2"
+                app:cardElevation="10dp">
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/bag"/>
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="accessory"
+                        android:textSize="24dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+
+
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="20dp"
+                android:id="@+id/bag3"
+                app:cardElevation="10dp">
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                   <ImageView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/bag3"/>
+
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="accessory"
+                        android:textSize="24dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+<HorizontalScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="50dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:id="@+id/bag4"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="20dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bag4"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:id="@+id/bag5"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="20dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bag5"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/bag6"
+            app:cardElevation="10dp"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="20dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bag6"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</HorizontalScrollView>
+</LinearLayout>
+
+
+
+
